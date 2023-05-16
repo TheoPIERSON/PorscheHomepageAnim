@@ -1,0 +1,13 @@
+* {
+  margin: 0%;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(images/eric-saunders-znzlxOfFbWs-unsplash.jpeg);
+  background-size: 110% 110%;
+  animation: shrink 30s infinite alternate;
+  font-family: "Chakra Petch", sans-serif;
+  color: #8db2cb;
+  text-shadow: -1px 1px 2px #7f5430;
+}

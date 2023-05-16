@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="transition.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Chakra+Petch:wght@700&family=Teko:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>HomePage</title>
+  </head>
+  <body>
+    <div class="transition transition-1 is-active"></div>
+
+    <nav>
+      <ul>
+        <li>Socials</li>
+        <li>Home</li>
+        <li>Profile</li>
+      </ul>
+    </nav>
+    <div class="images"></div>
+    <h1>911</h1>
+    <div class="buttonRotate">
+      <a href="more.html" class="link">
+        <svg
+          viewBox="0 0 200 200"
+          width="200"
+          height="200"
+          xmlns="http://www.w3.org/2000/svg"
+          class="link__svg"
+          aria-labelledby="link1-title link1-desc"
+        >
+          <title id="link1-title">Come quick and click this</title>
+          <desc id="link1-desc">A rotating link with text placed around a circle with an arrow inside</desc>
+
+          <path
+            id="link-circle"
+            class="link__path"
+            d="M 20, 100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"
+            stroke="none"
+            fill="none"
+          />
+
+          <path class="link__arrow" d="M 75 100 L 125 100 L 110 85 M 125 100 L 110 115" fill="none" />
+
+          <text class="link__text">
+            <textPath href="#link-circle" stroke="none">Découvrez notre histoire .</textPath>
+          </text>
+        </svg>
+      </a>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

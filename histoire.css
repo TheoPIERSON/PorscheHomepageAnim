@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+}
+body {
+  background-image: url(images/lorenzo-mazzoleni-V6pAYwV3R9I-unsplash.jpg);
+  background-size: 110% 110%;
+  animation: shrink 30s infinite alternate;
+  font-family: "Chakra Petch", sans-serif;
+  color: #8db2cb;
+  text-shadow: -1px 1px 2px #7f5430;
+}
+.lienHome {
+  text-decoration: none;
+  color: #8db2cb;
+}
+.firstPart img {
+  width: 55%;
+}
+.firstPart {
+  display: flex;
+  padding: 2rem;
+}
+.firstPart .contenu {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 1rem;
+}
+.firstPart .contenu h2 {
+  display: flex;
+  justify-content: center;
+  font-size: calc(9000vw / 1018);
+}
+.firstPart .contenu p {
+  font-size: calc(1500vw / 1018);
+}

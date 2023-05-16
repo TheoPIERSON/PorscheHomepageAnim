@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  animation: expand 0.8s ease forwards;
+  background-color: red;
+  transition: all 0.8s ease;
+}
